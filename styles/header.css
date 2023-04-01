@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    padding: 2em 5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paginas {
+    position: absolute;
+    padding-left: 20em
+}
+
+.opcoes {
+    padding: 0 1em;
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.opcoes:hover {
+    color: var(--bordo);
+}
+
+.entrar {
+    padding: 0 1.5em;
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.entrar:hover {
+    color: var(--bordo);
+}
+
+.botao__cadastrar {
+    color: var(--branco);
+    background-color: var(--bordo);
+    border-radius: 5px;
+    padding: .5em 1em;
+    border: 1px solid var(--bordo);
+}
+
+.botao__cadastrar:hover {
+    background-color: var(--cinza);
+    border: 1px solid var(--cinza);
+    transition: .2s;
+}
